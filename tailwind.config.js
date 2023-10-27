@@ -24,6 +24,12 @@ module.exports = {
         presstart: ["'Press Start 2P'", "cursive"],
         silkscreen: ["Silkscreen", "sans-serif"],
       },
+      keyframes: {
+        wiggle: {
+          "30%": { transform: "rotate(70deg)" },
+          "0%, 100%": { transform: "rotate(-30deg)" },
+        },
+      },
     },
   },
   variants: {

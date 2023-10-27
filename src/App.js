@@ -1,4 +1,4 @@
-import { CubeTransparentIcon } from "@heroicons/react/24/solid";
+import { HandRaisedIcon } from "@heroicons/react/24/solid";
 import Typical from "react-typical";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="flex flex-col items-start justify-center min-h-screen py-2 bg-gray-100">
       <main className="px-8">
         <div className="flex flex-col space-y-8 items-start justify-start">
-          <CubeTransparentIcon className="w-20 text-juxe" />
+          <HandRaisedIcon className="w-20 text-juxe animate-[wiggle_1s_ease-in-out_infinite]" />
           <h1 className="font-silkscreen text-7xl font-bold text-juxe tracking-wide">
             Panjul!
           </h1>
@@ -21,13 +21,13 @@ function App() {
               <Typical
                 steps={[
                   "Panjul",
-                  2500,
+                  2000,
                   "Manujul",
-                  2500,
+                  2000,
                   "Sikujul",
-                  2500,
+                  2000,
                   "Marijul",
-                  2500,
+                  2000,
                 ]}
                 wrapper="p"
                 loop={Infinity}
